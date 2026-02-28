@@ -43,6 +43,11 @@
     "typescript": "5.9.3"
   },
   "packageManager": "pnpm@10.30.3",
+  "pnpm": {
+    "overrides": {
+      "c8@11.0.0>yargs": "18.0.0"
+    }
+  },
   "engines": {
     "node": ">=20.8"
   }
