@@ -10,6 +10,7 @@ jobs:
     with:
       platforms: '["ubuntu-latest", "macos-latest", "windows-latest"]'
       script: ci
-      install: '{recursive: false}'
+      install: |
+        recursive: false
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
