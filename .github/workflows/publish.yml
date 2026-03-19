@@ -12,3 +12,4 @@ jobs:
     with:
       docs: true
       script: ci
+      install: '{recursive: false}'
